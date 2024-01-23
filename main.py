@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from requests.exceptions import RequestException
 
-api_url = "http://127.0.0.1:8000/tarefas/"
+api_url = "http://magno4lves.pythonanywhere.com/tarefas/"
 
 def obter_tarefas():
     try:
